@@ -45,12 +45,15 @@
             android:textSize="18sp"
             android:textStyle="bold"/>
 
+<!-- use the recommended marginStart and End for better results
+ specially when developing for multiple screens sizes-->
+
         <TextView
             android:id="@+id/tv_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_toRightOf="@id/tv_id_title"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/tv_id_title"
             tools:text="123"
             android:textColor="@color/black"
             android:textAlignment="center"
